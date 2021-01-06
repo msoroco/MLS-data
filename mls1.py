@@ -18,8 +18,6 @@ time.sleep(5) #waits for the page to load
 first_result = driver.find_element_by_xpath('//*[@id="video-title"]/yt-formatted-string')
 first_result.click()
 
-
-
 time.sleep(120)
 
 
